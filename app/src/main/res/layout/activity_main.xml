@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".MainActivity"
+  tools:layout_editor_absoluteY="81dp">
+
+  <TableLayout
+    android:id="@+id/tableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <TableRow
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_margin="10dp"
+      android:weightSum="2">
+
+      <Button
+        android:id="@+id/ex1"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_weight="1"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:text="@string/ex1" />
+
+      <Button
+        android:id="@+id/ex2"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_weight="1"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:text="@string/ex2" />
+
+    </TableRow>
+
+    <TableRow
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_margin="10dp"
+      android:weightSum="2">
+
+      <Button
+        android:id="@+id/ex3"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_weight="1"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:text="@string/ex3" />
+
+      <Button
+        android:id="@+id/ex4"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_weight="1"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:text="@string/ex4" />
+    </TableRow>
+
+    <TableRow
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_margin="10dp"
+      android:weightSum="2">
+
+      <Button
+        android:id="@+id/ex5"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_weight="1"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:text="@string/ex5" />
+
+      <Button
+        android:id="@+id/ex6"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_weight="1"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:text="@string/ex6" />
+    </TableRow>
+
+  </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

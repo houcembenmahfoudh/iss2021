@@ -1,0 +1,17 @@
+<resources>
+  <string name="app_name">iss2021</string>
+  <string name="title_activity_splash_screen">FullscreenActivity</string>
+  <string name="ex1">Exercice 1</string>
+  <string name="ex2">Exercice 2</string>
+  <string name="ex3">Exercice 3</string>
+  <string name="ex4">Exercice 4</string>
+  <string name="ex5">Exercice 5</string>
+  <string name="ex6">Exercice 6</string>
+  <string name="raspberry_pi">http://10.194.69.214:3671/</string>
+  <string name="ex1Text">Afficher la valeur de la température ainsi le temps de la mesure.</string>
+  <string name="ex2Text">Allumer l\'ampoule en indiquant l\'intensité souhaitée.</string>
+  <string name="ex3Text">Appliquer une aggregation.</string>
+  <string name="ex4Text">Fournir un ensemble de données.</string>
+  <string name="ex5Text">Appliquer une inférence.</string>
+  <string name="ex6Text">Améliorer la QoC.</string>
+</resources>
